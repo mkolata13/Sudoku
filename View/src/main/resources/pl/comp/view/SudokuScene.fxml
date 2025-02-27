@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.comp.view.SudokuController">
+    <GridPane fx:id="grid" alignment="CENTER" centerShape="false" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+    </GridPane>
+    <Button fx:id="saveButton" text="%save.button" onAction="#saveGame"/>
+    <Button fx:id="loadButton" text="%load.button" onAction="#loadGame"/>
+</VBox>
